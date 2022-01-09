@@ -1,0 +1,16 @@
+wget https://github.com/hashcat/hashcat/releases/download/v6.2.5/hashcat-6.2.5.7z
+p7zip -d hashcat-6.2.5.7z
+
+
+#-- не нужно --# wget https://github.com/hashcat/hashcat-utils/releases/download/v1.9/hashcat-utils-1.9.7z
+
+
+
+Конвертация
+git clone https://github.com/ZerBea/hcxtools
+cd hcxtools
+sudo apt update
+sudo apt-get install libssl-dev libcurl4-openssl-dev
+make
+
+
